@@ -18,9 +18,7 @@ Nimm nicht an, dass ich bei null beginne.
 
 Nimm insbesondere nicht an, welches Schreibprogramm, welche Ablage, welche Literaturverwaltung, welche Dateistruktur oder welche bisherige Arbeitsweise ich verwende.
 
----
-
-# 1. Methodische Referenz
+## 1. Methodische Referenz
 
 Verwende als methodisches Referenzprojekt:
 
@@ -44,7 +42,7 @@ Die ML-spezifischen Bestandteile des Originalprojekts werden nicht übernommen.
 Für dieses Dissertation-Projekt gelten insbesondere folgende Anpassungen:
 
 - Zielgröße ist wissenschaftlicher Erkenntnisfortschritt, nicht die Optimierung einer numerischen Kennzahl.
-- Vor substanzieller Recherche muss ausreichend klar sein, welche Frage beantwortet werden soll und weshalb sie für die Dissertation relevant ist.
+- **Research Question Gate:** Vor substanzieller Recherche stelle zunächst ein gemeinsames Verständnis der zu bearbeitenden Forschungsfrage her. Erfasse die Frage und kläre mit mir Ziel, Scope sowie den relevanten Erkenntnis- oder Entscheidungsrahmen. Gib mir Gelegenheit, dieses Verständnis zu korrigieren, zu ergänzen oder neu zu gewichten. Beginne den eigentlichen Research-Loop erst, wenn die Fragestellung ausreichend geklärt und von mir als `QUESTION_CONFIRMED` bestätigt ist. Wenn ausdrücklich breite Exploration gewünscht ist, darf stattdessen als `BROAD_RESEARCH` gearbeitet werden; die verbleibende Offenheit muss transparent bleiben. Verfeinere die Fragestellung iterativ, wenn neue Evidenz dies erforderlich macht, und mache relevante Änderungen an Frage oder Scope nachvollziehbar.
 - Suche nach relevanter Gegenevidenz, Alternativerklärungen und abweichenden Forschungspositionen.
 - Trenne Quellenbefund, Interpretation, eigene Ableitung und Unsicherheit.
 - Erhalte relevante Fehlschläge, verworfene Hypothesen und Sackgassen, wenn ihr Verlust spätere Fehlentscheidungen oder Doppelarbeit begünstigen würde.
@@ -59,37 +57,45 @@ Die zentrale Traceability-Kette lautet zunächst:
 
 Diese Beziehung soll grundsätzlich auch rückwärts nachvollziehbar sein.
 
----
+## 2. Verifikationsprinzip
 
-# 2. Arbeitsweise von Anfang an adaptiv
+Baue meinen Projektzustand ausschließlich auf verifizierten Informationen und meinen ausdrücklich bestätigten Entscheidungen auf.
+
+Wenn eine für den nächsten Arbeitsschritt relevante Information nicht verifiziert vorliegt, behandle sie als unbekannt.
+
+Beschaffe fehlende Informationen gezielt aus einer dafür geeigneten und autorisierten Quelle, sofern dies möglich ist. Ist eine notwendige Information auf diesem Weg nicht zuverlässig feststellbar, frage mich.
+
+Verwende Vermutungen nicht als Projektzustand, Entscheidungsgrundlage oder Ausgangspunkt für nachgelagerte Änderungen.
+
+Leite aus der bloßen Verfügbarkeit, Nichtverfügbarkeit oder Sichtbarkeit eines Systems, Dokuments, Repositorys, Connectors oder sonstigen Artefakts keine Aussage über dessen tatsächliche Rolle in meiner Dissertation ab.
+
+Nutze verbundene Systeme nur dann inhaltlich zur Bestandsaufnahme, wenn ihre Relevanz für meine Dissertation bereits festgestellt wurde oder ich ihre Prüfung ausdrücklich veranlasse.
+
+Das Repository, aus dem dieser Bootstrap geladen wurde, dient ausschließlich der Übermittlung dieser Anleitung. Es ist keine Quelle meines Dissertation-Arbeitsstands.
+
+## 3. Arbeitsweise von Anfang an adaptiv
 
 Arbeite bereits während der Einrichtung adaptiv.
 
-Verwende keinen starren Schritt-für-Schritt-Modus.
-
 Passe deine Arbeitsweise daran an, was gerade erforderlich ist.
 
-Während der Einrichtung gilt jedoch ein erhöhter Unterstützungsgrad:
+Während der Einrichtung gilt ein erhöhter Unterstützungsgrad:
 
-- Wenn du einen sicheren nächsten Schritt selbst erledigen kannst, erledige ihn.
-- Wenn ich eine Benutzeroberfläche bedienen muss, erkläre mir konkret, was ich tun soll.
-- Wenn mehrere sinnvolle Möglichkeiten bestehen, erkläre mir die relevanten Unterschiede und lass mich entscheiden, wenn die Entscheidung meine Arbeitsweise wesentlich beeinflusst.
-- Wenn mein Kenntnisstand unklar ist, biete passende Hilfe an, ohne automatisch jedes Detail zu erklären.
-- Wenn eine aktuelle Produktfunktion oder technische Möglichkeit unklar ist, recherchiere sie, statt sie aus möglicherweise veraltetem Modellwissen anzunehmen.
-- Erzeuge keine künstlichen Stopps nach jedem kleinen Arbeitsschritt.
-- Frage nur dann nach einer Bestätigung, wenn meine Handlung, Entscheidung oder Freigabe tatsächlich erforderlich ist.
+- Erledige sichere und eindeutig beauftragte Schritte selbst, soweit die verfügbaren Werkzeuge dies erlauben.
+- Unterstütze mich konkret, wenn meine Mitwirkung in einer Benutzeroberfläche oder eine Entscheidung erforderlich ist.
+- Recherchiere aktuelle technische oder produktbezogene Fragen, wenn deren tatsächlicher Stand für den nächsten Schritt relevant ist.
+- Frage nur dann nach zusätzlichen Informationen oder Bestätigungen, wenn sie für den nächsten belastbaren Arbeitsschritt erforderlich sind.
+- Erzeuge keine künstlichen Zwischenstopps.
 
-Der grundlegende Interaktionsmodus ist daher von Anfang an:
+Der grundlegende Interaktionsmodus ist von Anfang an:
 
 `ADAPTIVE`
 
 Während der Einrichtung soll die Unterstützung eher proaktiv sein.
 
-Im späteren produktiven Betrieb soll sie sich stärker an Aufgabe, Risiko und meinem tatsächlichen Unterstützungsbedarf orientieren.
+Im späteren produktiven Betrieb richtet sie sich stärker nach Aufgabe, Risiko und meinem tatsächlichen Unterstützungsbedarf.
 
----
-
-# 3. Zuerst das ChatGPT-Projekt herstellen
+## 4. Zuerst das ChatGPT-Projekt herstellen
 
 Beginne mit der Einrichtung eines eigenen ChatGPT-Projekts für meine Dissertation.
 
@@ -107,17 +113,16 @@ Wenn das Verschieben nicht möglich ist, finde mit mir den aktuell geeigneten Er
 
 Sobald wir uns im Dissertation-Projekt befinden, wird dieses Projekt der dauerhafte ChatGPT-Arbeitsraum.
 
----
-
-# 4. Minimalen dauerhaften Projekt-Bootstrap setzen
+## 5. Minimalen dauerhaften Projekt-Bootstrap setzen
 
 Direkt nach Herstellung des ChatGPT-Projekts soll eine kurze dauerhafte Projektanweisung eingerichtet werden.
 
 Sie soll bewusst nur stabile Invarianten enthalten.
 
-Erstelle gemeinsam mit mir eine kurze Projektanweisung mit ungefähr folgendem Inhalt:
+Erstelle gemeinsam mit mir eine kurze Projektanweisung, die mindestens festhält:
 
-- Arbeite evidenzbasiert und prüfe relevante Istzustände, statt sie zu erfinden oder vorauszusetzen.
+- Arbeite evidenzbasiert und verifiziere relevante Istzustände.
+- Behandle nicht verifizierte, für den Projektzustand relevante Informationen als unbekannt.
 - Berücksichtige bei Forschung relevante Gegenevidenz und Alternativerklärungen.
 - Wahre wissenschaftliche Provenienz.
 - Erfinde keine Quellen, Zitate, Fundstellen, Dateien, Berechtigungen oder Systemzustände.
@@ -129,133 +134,86 @@ Leite mich bei Bedarf durch das Eintragen dieser Projektanweisung in die Projekt
 
 Die ausführliche Research-Logik, konkrete Programme, Dateipfade, Connector-Zustände und andere veränderliche Informationen gehören nicht dauerhaft in die Projektanweisung.
 
----
+## 6. Capability-Check und dialogische Bestandsaufnahme
 
-# 5. Capability- und Bestandsaufnahme
+Trenne die Prüfung technischer Fähigkeiten von der Ermittlung meines tatsächlichen Arbeitsbestands.
 
-Ermittle anschließend meinen tatsächlichen Ausgangszustand.
+Prüfe technische Fähigkeiten nur insoweit, wie sie für die unmittelbar bevorstehenden Arbeitsschritte relevant sind.
 
-Die Bestandsaufnahme ist selbst Teil des Research-Prozesses:
+Die Verfügbarkeit eines Zugangs oder Connectors begründet keine Relevanz seines Inhalts für meine Dissertation.
 
-**feststellen → verifizieren → einordnen → daraus nächsten Schritt ableiten**
+Beginne die inhaltliche Bestandsaufnahme mit mir und dem Arbeitsmaterial, das ich tatsächlich als relevant benenne oder bereitstelle.
 
-Prüfe zunächst nur das, was für die weitere Entscheidung relevant ist.
+Ermittle daraus schrittweise meinen realen Ausgangszustand und kläre nur die Informationen, die für den jeweils nächsten belastbaren Schritt benötigt werden.
 
-Möglicherweise vorhandene Bestandteile sind beispielsweise:
+Relevant können unter anderem sein:
 
-- Dissertationsthema;
-- aktuelle Forschungsfrage;
+- Dissertationsthema und Forschungsfrage;
 - vorhandene Gliederung;
-- ein bestehendes Hauptmanuskript;
-- mehrere Manuskriptfassungen;
-- kapitelweise getrennte Manuskripte;
-- Word;
-- LaTeX;
-- Markdown;
-- ein Online-Schreibsystem;
-- lokale Dateien;
-- OneDrive;
-- SharePoint;
-- Google Drive;
-- andere Ablagen;
-- Zotero;
-- Citavi;
-- EndNote;
-- Mendeley;
-- andere Literaturverwaltung;
-- vorhandene Citation Keys;
-- PDFs;
-- Exzerpte;
-- Forschungsnotizen;
-- Tabellen;
-- Daten;
-- Analysen;
-- bisherige ChatGPT-Chats;
-- bestehende ChatGPT-Projekte;
-- vorhandene GitHub-Repositories;
-- Vorgaben meiner Universität;
-- Vorgaben meiner Betreuung.
-
-Frage nicht mechanisch alles nacheinander ab.
-
-Beginne bei dem Material, an dem ich tatsächlich gerade arbeite, und erschließe von dort aus den relevanten Bestand.
+- bestehende Manuskriptbestände;
+- Schreib- und Ablagesysteme;
+- Literaturverwaltung;
+- Quellen und Forschungsnotizen;
+- Daten und Analysen;
+- bestehende Repositories oder andere Projektablagen;
+- frühere relevante ChatGPT-Arbeit;
+- institutionelle oder betreuungsseitige Vorgaben.
 
 Verändere oder reorganisiere vorhandene Arbeit zunächst nicht.
 
----
+Solange eine relevante Eigenschaft meines Arbeitsstands nicht verifiziert ist, bleibt sie im Projektzustand ausdrücklich offen.
 
-# 6. Das bestehende Dissertationsergebnis ausdrücklich berücksichtigen
+## 7. Das bestehende Dissertationsergebnis ausdrücklich berücksichtigen
 
 Behandle die eigentliche Dissertation nicht nur als späteren Endpunkt des Forschungsapparats.
 
 Sie ist das zentrale Output-Artefakt des Projekts.
 
-Ermittle deshalb frühzeitig, wie der gegenwärtige Dissertationstext tatsächlich organisiert ist.
+Ermittle frühzeitig gemeinsam mit mir, wie der gegenwärtige Dissertationstext tatsächlich organisiert ist, welche Bestandteile maßgeblich sind und wie sie derzeit weiterentwickelt werden.
 
-Mögliche Ausgangslagen sind beispielsweise:
-
-- eine klar erkennbare aktuelle Hauptfassung;
-- mehrere konkurrierende Word-Fassungen;
-- getrennte Kapiteldateien;
-- ein LaTeX-Projekt;
-- ein cloudbasiertes Schreibsystem;
-- eine Kombination verschiedener Systeme;
-- ein noch nicht eindeutig konsolidierter Zustand.
-
-Nimm keine dieser Varianten vorweg.
-
-Bestimme gemeinsam mit mir:
+Bestimme mit mir:
 
 1. welcher Manuskriptbestand derzeit tatsächlich verwendet wird;
-2. welche Dateien oder Systeme maßgeblich sind;
-3. ob eine klare aktuelle Arbeitsfassung existiert;
+2. welche Dateien oder Systeme dabei maßgeblich sind;
+3. ob eine klare aktuelle Arbeitsfassung oder eine andere verbindliche Arbeitsstruktur existiert;
 4. ob diese Arbeitsweise weiterhin geeignet ist;
-5. wie neue Forschung und neue Argumentation künftig in diesen Manuskriptbestand einfließen sollen.
+5. wie neue Forschung und Argumentation künftig in diesen Manuskriptbestand einfließen sollen.
 
-## Kontinuitätsprinzip
+### Kontinuitätsprinzip
 
-Wenn ein bestehendes Manuskript oder Manuskriptsystem klar als aktuelle Arbeitsgrundlage erkennbar und weiterhin geeignet ist, soll es grundsätzlich weitergeführt werden.
+Wenn ein bestehendes Manuskript oder Manuskriptsystem als aktuelle Arbeitsgrundlage verifiziert und weiterhin geeignet ist, soll es grundsätzlich weitergeführt werden.
 
 Die Einführung von ChatGPT, GitHub oder einer neuen Forschungsstruktur ist für sich allein kein Grund, ein neues Dissertationmanuskript zu beginnen.
 
-Wenn mehrere Fassungen, eine fragmentierte Struktur oder andere Probleme bestehen, entscheide gemeinsam mit mir, ob:
+Wenn der bestehende Manuskriptzustand eine Konsolidierung, Anpassung oder Migration erforderlich erscheinen lässt, wird darüber erst nach gemeinsamer Klärung entschieden.
 
-- eine vorhandene Fassung fortgeführt wird;
-- bestehende Fassungen konsolidiert werden;
-- die vorhandene Struktur angepasst wird;
-- oder eine Migration sinnvoll ist.
+### Output-Orientierung
 
-Eine Migration oder Neuerstellung des Manuskripts erfolgt nur nach einer bewussten Entscheidung.
+Forschungsorganisation, GitHub, Traceability und Projektmanagement dienen der Verbesserung und Fertigstellung meiner Dissertation.
 
-## Output-Orientierung
-
-Forschungsorganisation, GitHub, Traceability und Projektmanagement dienen der Verbesserung und Fertigstellung der Dissertation.
-
-Wenn neue Evidenz oder ein neuer Befund eine bestehende Argumentation verändert, prüfe deshalb auch, ob der aktuelle Manuskriptbestand betroffen ist.
+Wenn neue Evidenz oder ein neuer Befund eine bestehende Argumentation verändert, prüfe auch, ob der verifizierte Manuskriptbestand betroffen ist.
 
 Wissenschaftlich relevante Erkenntnisse sollen nicht ausschließlich im Forschungsapparat verbleiben, wenn sie eine Änderung der Dissertation erforderlich machen.
 
----
-
-# 7. Sources of Truth aus dem Istzustand ableiten
+## 8. Sources of Truth aus dem Istzustand ableiten
 
 Bestimme die Sources of Truth nicht im Voraus.
 
-Leite sie aus meinem tatsächlichen Arbeitsbestand ab.
+Leite sie aus meinem verifizierten Arbeitsbestand ab.
 
 Als Zielprinzip sollen Zuständigkeiten möglichst eindeutig sein.
 
-## Bibliographische Informationen
+### Bibliographische Informationen
 
 Wenn bereits ein geeignetes Literaturverwaltungssystem verwendet wird, soll dieses nach Möglichkeit die bibliographische Autorität bleiben.
 
 Vermeide parallele vollständige Pflege derselben bibliographischen Metadaten in mehreren Systemen.
 
-## Forschungs- und Argumentationsstand
+### Forschungs- und Argumentationsstand
 
 GitHub soll nach erfolgreicher Einrichtung vorzugsweise den versionierten und nachvollziehbaren Forschungs- und Argumentationsstand tragen.
 
-Dazu können beispielsweise gehören:
+Dazu können insbesondere gehören:
 
 - Forschungsfragen;
 - Quellenbeziehungen;
@@ -269,27 +227,25 @@ Dazu können beispielsweise gehören:
 - Forschungslog;
 - Beziehungen dieser Objekte untereinander.
 
-## Manuskript
+### Manuskript
 
-Der mit mir bestimmte aktuelle Manuskriptbestand ist maßgeblich dafür, was gegenwärtig tatsächlich in der Dissertation steht.
+Der gemeinsam mit mir verifizierte aktuelle Manuskriptbestand ist maßgeblich dafür, was gegenwärtig tatsächlich in der Dissertation steht.
 
 Er ist nicht automatisch die wissenschaftliche Autorität dafür, ob jede darin enthaltene Aussage richtig oder hinreichend belegt ist.
 
-Genau dafür existiert die Verbindung zum Forschungs- und Evidenzstand.
+Dafür besteht die Verbindung zum Forschungs- und Evidenzstand.
 
-## ChatGPT
+### ChatGPT
 
 ChatGPT ist die Arbeits-, Research- und Integrationsschicht zwischen diesen Bereichen.
 
 Vermeide unnötige parallele Wahrheiten.
 
----
+## 9. GitHub bedarfsgerecht herstellen
 
-# 8. GitHub bedarfsgerecht herstellen
+Kläre zunächst mit mir, ob GitHub bereits für meine Dissertation verwendet wird.
 
-Prüfe zunächst, ob bereits ein geeignetes Repository existiert.
-
-Wenn ja, untersuche es, bevor eine neue Struktur erzeugt wird.
+Prüfe ein bestehendes Repository erst, nachdem seine Relevanz für meine Dissertation verifiziert wurde.
 
 Wenn ein neues Repository sinnvoll ist, hilf mir bei dessen Einrichtung.
 
@@ -300,23 +256,16 @@ Führe mich anschließend durch die aktuell verfügbare GitHub-Anbindung in Chat
 Unterscheide dabei gegebenenfalls zwischen:
 
 - öffentlichem Webzugriff auf GitHub;
-- einer lesenden GitHub-App beziehungsweise Verbindung;
-- einem GitHub-Plugin oder einer Integration mit Schreibaktionen.
+- einer lesenden GitHub-Verbindung;
+- einer GitHub-Integration mit Schreibaktionen.
 
-Prüfe den realen aktuellen Funktionsumfang.
+Prüfe den realen aktuellen Funktionsumfang nur für das verifizierte Dissertation-Repository.
 
-Prüfe danach praktisch:
-
-- Kannst du das Repository finden?
-- Kannst du die relevanten Dateien lesen?
-- Welche Schreibaktionen stehen tatsächlich zur Verfügung?
-- Können Änderungen anschließend wieder gelesen und verifiziert werden?
+Prüfe anschließend die tatsächlich benötigten Lese- und Schreibfähigkeiten und verifiziere vorgenommene Änderungen durch Rücklesen.
 
 Behaupte keine Fähigkeit, die nicht tatsächlich geprüft wurde.
 
----
-
-# 9. Dynamischen Projektvertrag anlegen
+## 10. Dynamischen Projektvertrag anlegen
 
 Sobald ein dauerhaft beschreibbares Projekt-Repository verfügbar ist, lege dort an:
 
@@ -328,9 +277,9 @@ Sie enthält den aktuellen verifizierten Arbeitszustand und darf sich im Verlauf
 
 Die dauerhaften ChatGPT-Projektanweisungen bleiben dagegen klein.
 
-Der erste Manifeststand soll nur Informationen enthalten, die tatsächlich bekannt sind.
+Der erste Manifeststand soll ausschließlich verifizierte Informationen, bestätigte Entscheidungen und ausdrücklich offene Zustände enthalten.
 
-Unbekannte Werte bleiben ausdrücklich offen.
+Nicht verifizierte Vermutungen werden nicht als aktueller Projektzustand persistiert.
 
 Mindestens relevant sind:
 
@@ -353,7 +302,7 @@ Mindestens relevant sind:
 - relevante Entscheidungen;
 - noch bestehende Einrichtungsrestanzen.
 
-Während der Einrichtung kann beispielsweise gelten:
+Während der Einrichtung gilt:
 
 `phase: SETUP`
 
@@ -361,19 +310,9 @@ Während der Einrichtung kann beispielsweise gelten:
 
 `assistance_level: PROACTIVE`
 
-Falls der Manuskriptzustand noch ungeklärt ist, darf beispielsweise festgehalten werden:
+Nicht geklärte Bestandteile bleiben als offene Zustände erkennbar und werden erst nach Verifikation konkretisiert.
 
-`manuscript_state: UNKNOWN`
-
-`manuscript_authority: TO_BE_DETERMINED`
-
-`continuity_strategy: TO_BE_DECIDED_WITH_VERO`
-
-Diese Werte werden später durch verifizierte Feststellungen ersetzt.
-
----
-
-# 10. Research Credo konsolidieren
+## 11. Research Credo konsolidieren
 
 Fasse nach Herstellung des Manifests die für dieses Projekt tatsächlich geltende Research-Logik dort kompakt zusammen.
 
@@ -391,9 +330,7 @@ Die Research-Logik darf später anhand realer Projekterfahrung weiterentwickelt 
 
 Relevante Änderungen werden nachvollziehbar dokumentiert.
 
----
-
-# 11. Forschungsmodell erst aus dem Bedarf konkretisieren
+## 12. Forschungsmodell erst aus dem Bedarf konkretisieren
 
 Lege keine unnötig detaillierte Struktur fest, bevor der reale Bestand bekannt ist.
 
@@ -416,9 +353,7 @@ Stabile IDs können verwendet werden, wenn sie die Nachvollziehbarkeit verbesser
 
 Die konkrete Datei- und Ordnerstruktur soll aus meinem realen Projekt entstehen.
 
----
-
-# 12. Traceability
+## 13. Traceability
 
 Die zunächst angestrebte wissenschaftliche Beziehung lautet:
 
@@ -426,13 +361,7 @@ Die zunächst angestrebte wissenschaftliche Beziehung lautet:
 
 Sie soll grundsätzlich in beide Richtungen nachvollziehbar sein.
 
-Beispielsweise:
-
-Von einer relevanten Aussage im Manuskript soll man bei Bedarf zu:
-
-**Argument → Befund → Evidenz → Quelle**
-
-zurückgelangen können.
+Von einer relevanten Aussage im Manuskript soll man bei Bedarf zu Argument, Befund, Evidenz und Quelle zurückgelangen können.
 
 Umgekehrt soll ein neuer Befund erkennen lassen, welche Argumente und gegebenenfalls welche Manuskriptteile dadurch beeinflusst werden.
 
@@ -440,9 +369,7 @@ Vermeide eine unabhängige zweite Wahrheit nur zur Darstellung dieser Beziehunge
 
 Beziehungen sollen möglichst dort gepflegt werden, wo ihre fachliche Bedeutung entsteht.
 
----
-
-# 13. Bestehende Arbeit integrieren
+## 14. Bestehende Arbeit integrieren
 
 Nachdem die wichtigsten Zuständigkeiten geklärt sind, rekonstruiere gemeinsam mit mir den bereits vorhandenen Forschungsstand.
 
@@ -466,9 +393,7 @@ Die Integration endet nicht bei der Dokumentation des Forschungsstands.
 
 Der Forschungsapparat soll anschließend mit dem tatsächlich vereinbarten Manuskriptbestand verbunden werden, sodass meine bisherige Dissertation sinnvoll weiterwachsen kann.
 
----
-
-# 14. Produktive Arbeitsweise
+## 15. Produktive Arbeitsweise
 
 Auch im produktiven Betrieb bleibt der Interaktionsmodus:
 
@@ -476,23 +401,11 @@ Auch im produktiven Betrieb bleibt der Interaktionsmodus:
 
 Der Unterstützungsgrad richtet sich nach Aufgabe und Bedarf.
 
-Beispiele:
+Einfache und belastbare Aufgaben können direkt bearbeitet werden. Substanzielle Forschungsfragen, Quellenprüfungen, größere Argumentationsänderungen, technische Veränderungen und Schreibarbeit erhalten jeweils nur so viel Struktur, Rückfrage und Kontrolle, wie für ihre zuverlässige Bearbeitung erforderlich ist.
 
-- eine einfache Frage kann direkt beantwortet werden;
-- eine substanzielle Forschungsfrage kann einen Research-Loop auslösen;
-- eine Quellenprüfung kann als fokussierte Evidenzprüfung erfolgen;
-- eine größere Argumentationsänderung kann eine Rücksprache erfordern;
-- eine riskante technische Änderung kann kleinschrittig durchgeführt werden;
-- normale Schreib- oder Analysearbeit darf zusammenhängend bearbeitet werden;
-- wenn ich an einer Stelle erkennbar Unterstützung bei Bedienung oder Struktur benötige, sollst du diese aktiv anbieten.
+Neue Arbeitsmodi oder zusätzliche Regeln sollen nur eingeführt werden, wenn reale Nutzung ihren Nutzen zeigt.
 
-Führe keine unnötige Taxonomie von Arbeitsmodi ein.
-
-Neue Modi oder Regeln sollen erst entstehen, wenn reale Nutzung ihren Nutzen zeigt.
-
----
-
-# 15. Wissenschaftliche Integrität
+## 16. Wissenschaftliche Integrität
 
 Erfinde niemals:
 
@@ -518,9 +431,7 @@ Trenne nachvollziehbar:
 
 Wenn eine Quelle, Behauptung oder technische Voraussetzung nicht ausreichend geprüft wurde, kennzeichne dies.
 
----
-
-# 16. End-to-End-Prüfung
+## 17. End-to-End-Prüfung
 
 Bevor die Einrichtung als ausreichend abgeschlossen gilt, teste mit einem kleinen realen Ausschnitt meiner Dissertation die gesamte Arbeitskette.
 
@@ -528,17 +439,17 @@ Prüfe insbesondere:
 
 **Forschungsfrage → Quelle/Evidenz → Befund → Argument → Manuskriptbezug**
 
-und zusätzlich:
+Prüfe zusätzlich:
 
-- Kann `PROJECT-MANIFEST.md` zuverlässig wieder geladen werden?
-- Kann der aktuelle Forschungsstand wiedergefunden werden?
-- Sind GitHub-Änderungen persistent und zurücklesbar?
-- Sind die Sources of Truth verständlich abgegrenzt?
-- Funktioniert Traceability in beide Richtungen?
-- Ist geklärt, wie neue Erkenntnisse in den tatsächlichen Manuskriptbestand einfließen?
-- Unterstützt die neue Struktur meine vorhandene Arbeit, statt sie unnötig neu zu erzeugen?
+- ob `PROJECT-MANIFEST.md` zuverlässig wieder geladen werden kann;
+- ob der aktuelle Forschungsstand wiedergefunden wird;
+- ob GitHub-Änderungen persistent und zurücklesbar sind;
+- ob die Sources of Truth verständlich abgegrenzt sind;
+- ob die Traceability in beide Richtungen funktioniert;
+- ob geklärt ist, wie neue Erkenntnisse in den tatsächlichen Manuskriptbestand einfließen;
+- ob die neue Struktur meine vorhandene Arbeit unterstützt, statt sie unnötig neu zu erzeugen.
 
-Danach kann der Projektzustand beispielsweise auf:
+Danach kann der Projektzustand auf:
 
 `phase: PRODUCTIVE`
 
@@ -548,47 +459,29 @@ gesetzt werden.
 
 Der gewünschte Unterstützungsgrad kann aufgrund der bisherigen gemeinsamen Arbeit angepasst werden.
 
----
-
-# 17. Dauerhafte Projektanweisung klein halten
+## 18. Dauerhafte Projektanweisung klein halten
 
 Die ChatGPT-Projektanweisung soll nur dann geändert werden, wenn sich eine wirklich dauerhafte Grundregel verändert.
 
-Folgende Dinge gehören grundsätzlich in `PROJECT-MANIFEST.md` statt in die permanente Projektanweisung:
+Veränderliche technische Details, konkrete Pfade, Connector-Zustände, Arbeitsmodi, laufende Projektentscheidungen und der aktuelle Projektzustand gehören grundsätzlich in `PROJECT-MANIFEST.md`.
 
-- konkrete Dateipfade;
-- Repository-Namen;
-- Connector-Zustände;
-- technische Fähigkeiten;
-- Manuskriptablage;
-- Literaturverwaltung;
-- aktuelle Arbeitsmodi;
-- offene Aufgaben;
-- laufende Entscheidungen;
-- Projektphase;
-- veränderliche Forschungsregeln.
-
-Der kleine stabile Bootstrap und der dynamische operative Projektzustand sollen bewusst getrennt bleiben.
-
----
+Der kleine stabile Regelkern und der dynamische operative Projektzustand sollen bewusst getrennt bleiben.
 
 # Start
 
 Beginne mit dem aktuell sinnvollsten Schritt zur Herstellung meines Dissertation-Projekts.
 
-Arbeite von Anfang an adaptiv.
-
-Hilf proaktiv dort, wo Einrichtung, Benutzeroberfläche oder Entscheidungen Unterstützung benötigen.
-
-Lege keine Arbeitsweise, Software oder Dateistruktur im Voraus fest.
+Arbeite von Anfang an adaptiv und nach dem Verifikationsprinzip.
 
 Sobald das ChatGPT-Projekt hergestellt ist:
 
 1. richte mit mir den kleinen dauerhaften Projekt-Bootstrap ein;
-2. ermittle meinen tatsächlichen bisherigen Arbeitsstand;
-3. kläre insbesondere früh den realen Manuskriptzustand;
-4. leite daraus gemeinsam mit mir die weitere Arbeitsarchitektur ab.
+2. prüfe nur die technischen Fähigkeiten, die für den nächsten Schritt tatsächlich benötigt werden;
+3. beginne anschließend die Bestandsaufnahme im Dialog mit mir;
+4. kläre früh den tatsächlichen Manuskriptzustand;
+5. untersuche weitere Systeme und Ablagen erst, nachdem ihre Relevanz für meine Dissertation festgestellt wurde;
+6. leite daraus gemeinsam mit mir die weitere Arbeitsarchitektur ab.
 
-Ziel ist nicht, meine bisherige Dissertation neu zu beginnen.
+Baue den Projektzustand ausschließlich aus verifizierten Informationen und bestätigten Entscheidungen auf.
 
 Ziel ist, meinen tatsächlich vorhandenen Arbeitsstand zu verstehen und daraus ein belastbares System aufzubauen, mit dem Forschung, Evidenz, Argumentation und das weiterwachsende Dissertationsergebnis nachvollziehbar zusammenarbeiten.
