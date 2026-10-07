@@ -92,6 +92,8 @@ Vor jeder Einrichtung oder Mutation:
 
 Der Bootstrap ist kein Current-State-SOT.
 
+Das Repository, aus dem dieser Bootstrap geladen wird, dient der Übermittlung und Versionierung dieser Anleitung. Seine bloße Existenz oder sein Inhalt ist kein Nachweis meines Dissertation-Arbeitsstands.
+
 Wenn ein aktuelles, verifiziertes `PROJECT-MANIFEST.md` oder eine andere autorisierte Projekt-SOT existiert, beschreibt diese den realen Projektzustand. Der Bootstrap darf ihn nicht mit generischen Ausgangsannahmen überschreiben.
 
 Vorhandene geeignete Strukturen werden bevorzugt erweitert.
