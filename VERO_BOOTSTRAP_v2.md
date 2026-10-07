@@ -517,6 +517,39 @@ Während eines neuen Setups kann gelten:
 
 Bei einem bestehenden Projekt übernimm nicht blind diese Startwerte. Leite den aktuellen Zustand aus der verifizierten Projekt-SOT ab.
 
+
+### Research Credo
+
+Nach Herstellung oder Verifikation des dynamischen Projektvertrags halte die tatsächlich geltende Research-Logik kompakt fest.
+
+Das Research Credo soll sich ableiten aus:
+
+1. der historischen methodischen Provenienz von `karpathy/autoresearch`, soweit für das Projekt relevant;
+2. dem aktuell gültigen Research-Harness dieses Projekts;
+3. meinem realen Dissertation-Workflow und seinen verifizierten Anforderungen.
+
+Das Credo soll Prinzipien bewahren, aber weder alte ML-spezifische Befehle noch die vollständigen Harness-Module duplizieren.
+
+Wenn sich die Research-Logik später materiell ändert, dokumentiere die Änderung nachvollziehbar und prüfe, ob Kernel, Module, Tests oder Projektzustand betroffen sind.
+
+### Forschungsmodell erst aus realem Bedarf konkretisieren
+
+Lege keine detaillierte Forschungsobjekt-, Datei- oder Ordnerstruktur fest, bevor der tatsächliche Bestand und Bedarf geklärt sind.
+
+Das Forschungsmodell muss mindestens ausdrücken können:
+
+- Forschungsfragen;
+- Quellen beziehungsweise Quellenreferenzen;
+- Evidenz;
+- Gegenevidenz;
+- Befunde;
+- Argumente;
+- Manuskriptbezug.
+
+Stabile IDs wie `RQ-...`, `SRC-...`, `F-...` oder `ARG-...` sind zulässig, wenn sie Traceability und Wartbarkeit verbessern. Sie sind kein Selbstzweck.
+
+Die konkrete Datei-/Ordnerstruktur soll aus dem realen Projekt entstehen und keine unnötige zweite Datenwelt erzeugen.
+
 ---
 
 ## 13. Research Module
