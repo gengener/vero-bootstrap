@@ -9,6 +9,6 @@ State-aware Setup- und Upgrade-Anleitungen für einen ChatGPT-gestützten Disser
 
 ## Test- und Geltungsgrenzen
 
-Die v2-Anleitung ist als Inputversion in [vero-v2-test-input](https://github.com/gengener/vero-v2-test-input) gebunden und wird in [vero-v2-sandbox](https://github.com/gengener/vero-v2-sandbox) getestet. Das Test-Input-Repository ist **immutable/read-only**; Testergebnisse und Änderungen gehören ausschließlich in die Sandbox. Die Bindung der Bootstrap-Datei belegt keinen produktiven Dissertation-Zustand.
+Die v2-Anleitung kann in einer **separaten, zugriffsgeschützten Testumgebung** anhand versionierter Eingabedaten geprüft werden. Die Testeingaben bleiben dort unveränderlich; zulässige Teständerungen erfolgen ausschließlich im jeweiligen Testarbeitsraum. Die Testversion ist **kein** Nachweis des produktiven Dissertation-Zustands.
 
 Für tatsächliche Projektarbeit den dortigen Istzustand, seine gültigen Projektinstruktionen, Zustandsquelle und Berechtigungen jeweils eigenständig verifizieren. Ein Sandbox-PASS ist keine Produktionsfreigabe.
